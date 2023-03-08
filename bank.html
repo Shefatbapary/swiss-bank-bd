@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Bank</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1 class="wellcome">Welcome to <span class="bank-mane">Soice Bank BD </span>!!!!</h1>
+    </header>
+    <main>
+        <section class="maney-container">
+            <div id="deposit" class="balances">
+                <h2>Deposit</h2>
+                <h1>$<span id="deposit-balance">00</span></h1>
+            </div>
+            <div id="withdrow" class="balances">
+                <h2>Withdrow</h2>
+                <h1>$<span id="withdrow-balance">00</span></h1>
+            </div>
+            <div id="balance" class="balances">
+                <h2>Balance</h2>
+                <h1>$<span id="all-balance">1500</span></h1>
+            </div>
+        </section>
+        <section class="maney-add-out">
+            <div id="add-balance" class="transtion">
+                <h2>Add Balance</h2>
+                <input id="input-deposit-amount" class="input" type="text" placeholder="$Amout you want to add.">
+                <button id="btn-add-moaney">Add Moaney</button>
+            </div>
+            <div id="tnsfar-moaney" class="transtion">
+                <h2>Tnaspar Moaney</h2>
+                <input id="tnaspar-moaney-field" class="input" type="text" placeholder="$Amout you want to Tnaspar.">
+                <button id="tnaspar-moaney">Tnaspar Moaney</button>
+            </div>
+        </section>
+    <script src="bank.js"></script>
+</body>
+</html>
